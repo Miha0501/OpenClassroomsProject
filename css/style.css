@@ -8,6 +8,27 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    img {
+        max-width: 100px;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+.header-items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a {
+margin-right: 20px;
+    }
+
+}
 
 .fa-solid {
     color: var(--main-color);
