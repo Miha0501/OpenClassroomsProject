@@ -27,7 +27,43 @@ nav {
     a {
 margin-right: 20px;
     }
+}
 
+.navigation-bar{
+display: flex;
+flex-direction: row;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+.icone-location{
+    height: 40px;
+    background-color: rgb(246, 241, 241);
+    width: 45px;
+    border-radius: 8px 0px 0px 8px;
+    align-content: center;
+    text-align: center;
+    border-width: 0;
+}
+
+.search::placeholder{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+}
+
+.search{
+    border-width: 0px;
+
+  }
+.button-search{
+    background-color:blue;
+    color: #DEEBFF;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    border-width: 0px;
 }
 
 .fa-solid {
