@@ -43,14 +43,14 @@ h2{
 }
 
 .navigation-bar{
-display: flex;
-flex-direction: row;
-width: 377px;
-height: 49px;
-border-radius: 15px;
-border: 1px;
-margin-bottom: 40px;
-margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .icon-location{
@@ -64,13 +64,11 @@ margin-top: 40px;
 }
 
 .search::placeholder{
-  font-size: 18px;
-  padding: 15px, 16px, 15px, 16px;
-  font-weight: bold;
-  color:black;
-  text-align: center;
-
-
+    font-size: 18px;
+    padding: 15px, 16px, 15px, 16px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
 }
 
 .search{
@@ -78,6 +76,7 @@ margin-top: 40px;
     height: 49px;
     width: 200px;
   }
+
 .button-search{
     display: inline-block;
     background-color: #0065FC;
@@ -98,29 +97,19 @@ margin-top: 40px;
 }
 
 .category{
-/*     display: block flex;
- */    display: flex;
+    display: flex;
     flex-direction:row;
-/*     justify-content: space-between;
-    align-content:space-between; */
     gap: 15px;
     width: 758px;
     height: 50px;
-    /* margin-right: 650px; */
-
-   /* border-color: black;
-    border-width: 100px; */
 }
+
 .filter_text{
     width: 54px;
     height: 50px;
     background-color: white;
     align-content: center;
     font-weight: bold;
-
-    /* 
-    text-align: center;
-    justify-content: space-between; */
     border: 0px;
 }
 
@@ -214,7 +203,7 @@ a {
     flex-wrap: wrap;
 }
 
-.test{
+.row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -317,6 +306,57 @@ a {
     margin-bottom: 5px;
 }
 
+/* ******Activities****** */
+.activities section {
+    background-color: none;
+    border-radius: 20px;  
+    box-sizing: border-box;
+ }
+
+.activities-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activities-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/   width: 1280px;
+    height: 439px;
+    gap: 30px;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.activities-frame .card {
+    display: flex;
+    flex-direction: column;
+    width: 297.5px;
+    height: 45px;
+    justify-content:center;
+
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+ .activities-frame img {
+    margin-top: 30px;
+    height: 380px;
+    width: 100%;
+    display: block;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+
+ .activities-frame .card-txt {
+    margin: 0;
+    color: black;
+}
 
 
 
