@@ -216,6 +216,7 @@ a {
 .hebergements-cards .card {
     margin-top: 33px;
     width: 250.33px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .hebergements-cards img {
@@ -328,6 +329,7 @@ a {
     flex-direction: column;
     width: 25%;
     height: 439px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
  .activities-frame img {
