@@ -29,15 +29,15 @@
         </header>
 
         <main>
-        <section class="body">
             <section>
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <div class="headline">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre ville ou en pleine nature</p>
-                    
-                <form action="" method="get">     
+                </div>
+                <!-- <form action="" method="get">      -->
                 <div class="navigation-bar">
                     <div class="icon-location">
-                        <i class="fa-solid fa-location-dot" style="color:black"></i>
+                        <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
                         <input type="text" class="search" name="location" id="location" placeholder="Marseille,France">
@@ -49,23 +49,24 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
-                </form>
-                <div class="category">
+                <!-- </form> -->
+                <div class="filters-category">
                     <div class="filter_text">Filtres</div>
-                    <div style="width: 171px;" class="filter_categ">
-                        <i class="fa-solid fa-money-bill-wave" style="color: blue;"></i>Economique
-                    </div>
-                    <div style="width: 134px;" class="filter_categ">
-                        <i class="fa-solid fa-person" style="color: blue;"></i>Familial
-                    </div>
-                    <div style="width: 170px;" class="filter_categ">
-                        <i class="fa-solid fa-heart" style="color: blue;"></i>Romantique
-                    </div>
-                    <div style="width: 167px;" class="filter_categ">
-                        <i class="fa-solid fa-fire" style="color: blue;" ></i>Nos Pépites
+                    <div class="filters-container">
+                        <div class="filter_categ">
+                            <i class="fa-solid fa-money-bill-wave"></i>Economique
+                        </div>
+                        <div class="filter_categ">
+                            <i class="fa-solid fa-person"></i>Familial
+                        </div>
+                        <div class="filter_categ">
+                            <i class="fa-solid fa-heart"></i>Romantique
+                        </div>
+                        <div class="filter_categ">
+                            <i class="fa-solid fa-fire"></i>Nos Pépites
+                        </div>
                     </div>
                 </div>
-
                 <div class="infobar">
                     <div class="icon-info"> <i class="fa-solid fa-circle-info"></i></div>
                     <div>Plus de 500 logements sont disponibles dans cette ville</div>
@@ -329,10 +330,10 @@
                             </div>
                             </a>
                         </div>
-        </section>
+                </div>        
+            </section>
         </main>
         <footer>
-            <div class="footer-container">
                 <div class="footer-box">
                     <h4>A propos</h4>
                     <a href="#">Fontionnement du site</a>
@@ -349,7 +350,7 @@
                     <a href="#">Centre d'aide</a>
                     <a href="#">Nous contacter</a>
                 </div>
-            </div>
+            
         </footer>
     </div>
 </body>
