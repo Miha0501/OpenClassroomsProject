@@ -11,12 +11,14 @@
 
 
 .header {
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     img {
         max-width: 90px;
+        object-fit: contain;
     }
 }
 
@@ -528,7 +530,6 @@ h4 {
 
     .navigation-bar {
         justify-content: center;
-        margin: 30px 0px 30px 0px;
         width: 100%;
     }
 
